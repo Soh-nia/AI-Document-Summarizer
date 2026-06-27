@@ -24,13 +24,13 @@
 - React 18 + TypeScript
 - Vite
 - Tailwind CSS
-- Anthropic Claude API (`claude-sonnet-4-5`)
+- Google Gemini API (`gemini-2.5-flash`)
 - Deployed on Vercel
 
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/summ
+git clone https://github.com/Soh-nia/AI-Document-Summarizer.git
 cd summ
 npm install
 cp .env.example .env.local
