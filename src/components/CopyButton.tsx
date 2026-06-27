@@ -11,7 +11,7 @@ export default function CopyButton({ text }: { text: string }) {
         setCopied(true)
         setTimeout(() => setCopied(false), 2000)
       }}
-      className="flex items-center gap-1.5 btn btn-outline-green rounded-pill"
+      className="flex items-center gap-1.5 btn btn-sm btn-outline-green rounded-pill"
     >
       {copied ? <Check size={13} /> : <Copy size={13} />}
       {copied ? "Copied" : "Copy"}

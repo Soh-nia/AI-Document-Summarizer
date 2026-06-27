@@ -258,14 +258,14 @@ export default function App() {
           <button
             onClick={mode === "single" ? handleSingle : handleCompare}
             disabled={!canRun || isStreaming}
-            className="disabled:opacity-40 disabled:cursor-not-allowed btn btn-outline-green rounded-pill"
+            className="disabled:opacity-40 disabled:cursor-not-allowed btn btn-sm btn-outline-green rounded-pill"
           >
             {isStreaming ? (
               status === "streaming-a" ? "Summarising A…" : status === "streaming-b" ? "Summarising B…" : "Comparing…"
             ) : mode === "single" ? "Summarise" : "Summarise & Compare"}
           </button>
           {(docA.summary || docB.summary || comparison) && (
-            <button onClick={reset} className="flex items-center gap-1.5 btn btn-outline-green rounded-pill">
+            <button onClick={reset} className="flex items-center gap-1.5 btn btn-sm btn-outline-green rounded-pill">
               <RotateCcw size={14} />
               Clear
             </button>
@@ -305,7 +305,7 @@ export default function App() {
             <div className="px-4 py-3 border-b border-slate-100 bg-slate-50 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Layers size={15} className="text-teal-500" />
-                <span className="text-sm font-semibold text-slate-800">Comparison Analysis</span>
+                <span className="text-sm font-semibold text-slate-800" style={{ fontFamily: "'Transforma Mix', 'Playfair Display', Georgia, serif" }}>Comparison Analysis</span>
                 {status === "streaming" && !docA.summary.includes("Action Items") && (
                   <span className="flex items-center gap-1 text-[11px] font-medium text-teal-600">
                     <span className="w-1.5 h-1.5 bg-teal-400 rounded-full animate-pulse" />
@@ -315,7 +315,7 @@ export default function App() {
               </div>
               {status === "done" && <CopyButton text={comparison} />}
             </div>
-            <div className="p-4">
+            <div className="p-2">
               <SummaryPanel
                 docText=""
                 summary={comparison}
