@@ -41,8 +41,8 @@
 @font-face {
   font-family: "Transforma Mix";
   src:
-    url("./assets/fonts/TransformaMix_Trial-ExtraLight.woff2") format("woff2"),
-    url("./assets/fonts/TransformaMix_Trial-ExtraLight.woff") format("woff");
+    url("/assets/fonts/TransformaMix_Trial-ExtraLight.woff2") format("woff2"),
+    url("/assets/fonts/TransformaMix_Trial-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -51,8 +51,8 @@
 @font-face {
   font-family: "Transforma Mix";
   src:
-    url("./assets/fonts/TransformaMix_Trial-Light.woff2") format("woff2"),
-    url("./assets/fonts/TransformaMix_Trial-Light.woff") format("woff");
+    url("/assets/fonts/TransformaMix_Trial-Light.woff2") format("woff2"),
+    url("/assets/fonts/TransformaMix_Trial-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -61,8 +61,8 @@
 @font-face {
   font-family: "Transforma Mix";
   src:
-    url("./assets/fonts/TransformaMix_Trial-Regular.woff2") format("woff2"),
-    url("./assets/fonts/TransformaMix_Trial-Regular.woff") format("woff");
+    url("/assets/fonts/TransformaMix_Trial-Regular.woff2") format("woff2"),
+    url("/assets/fonts/TransformaMix_Trial-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -71,8 +71,8 @@
 @font-face {
   font-family: "Transforma Mix";
   src:
-    url("./assets/fonts/TransformaMix_Trial-Medium.woff2") format("woff2"),
-    url("./assets/fonts/TransformaMix_Trial-Medium.woff") format("woff");
+    url("/assets/fonts/TransformaMix_Trial-Medium.woff2") format("woff2"),
+    url("/assets/fonts/TransformaMix_Trial-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -81,8 +81,8 @@
 @font-face {
   font-family: "Transforma Mix";
   src:
-    url("./assets/fonts/TransformaMix_Trial-SemiBold.woff2") format("woff2"),
-    url("./assets/fonts/TransformaMix_Trial-SemiBold.woff") format("woff");
+    url("/assets/fonts/TransformaMix_Trial-SemiBold.woff2") format("woff2"),
+    url("/assets/fonts/TransformaMix_Trial-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
