@@ -162,10 +162,10 @@ export default function App() {
           <div className="row my-auto justify-content-center align-items-center">
             <div className="col-md-8 col-lg-5 d-none d-md-block position-relative order-lg-2 mb-5 mb-lg-0" data-aos="fade-up">
               <figure className="equal-1-1 rounded-circle" 
-              style={{ backgroundImage: "url('./src/assets/images/course-1.jpg')" }}
+              style={{ backgroundImage: "url('/assets/images/course-1.jpg')" }}
               >
               </figure>
-              <img className="position-absolute bottom-0 end-0 rotate" src="./src/assets/images/svg/featured-light.svg" alt="" />
+              <img className="position-absolute bottom-0 end-0 rotate" src="/assets/images/svg/featured-light.svg" alt="" />
             </div>
             <div className="col-lg-7 text-center text-lg-start">
               <h1 className="display-2" style={{ fontFamily: "'Transforma Mix', 'Playfair Display', Georgia, serif" }}>
